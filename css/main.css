@@ -13,10 +13,6 @@ body {
   margin: 0;
 }
 
-/*div{
-  vertical-align: middle;
-}*/
-
 div {
   max-width: 400px;
   display: inline-block;
