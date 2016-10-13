@@ -1,11 +1,49 @@
 html {
   box-sizing: border-box;
+  width: 100%;
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+/*div{
+  vertical-align: middle;
+}*/
+
+div {
+  max-width: 400px;
+  display: inline-block;
+  vertical-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  display: inline-block;
+  max-width: 400px;
+  text-align: left;
+  line-height: 1.5;
+
+}
+
+.btn {
+  display: inline-block;
+}
 
 
 
