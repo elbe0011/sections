@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  width: 100%;
   font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -15,18 +15,25 @@ body {
 
 div {
   max-width: 400px;
+  width: 100%;
   display: inline-block;
   vertical-align: center;
+  padding: 1em;
+}
+
+.text {
+  text-align: left;
 }
 
 img {
   display: block;
   width: 100%;
-  margin: 1.5rem auto;
+  margin-top: 1em;
 }
 
 h2 {
   display: inline-block;
+  margin-top: 0;
 }
 
 p {
@@ -39,16 +46,14 @@ p {
 
 .btn {
   display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 0.75em .5em;
+  border: 3px solid #333;
+  color: #333;
+  border-radius: 8px;
 }
 
-
-
-
-/*
-Typefaces: Lato
-Maximum width on section inner boxes: 25em
-Colours: #666, #333, #f2f2f2
-Paddings: 1em, 2em, 0.4em 0.75em 0.5em
-Margins: 1.5rem
-Line-height: 1.5
-*/
+.btn:hover {
+  background-color: #666;
+  color: #f2f2f2;
+}
